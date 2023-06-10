@@ -1,15 +1,15 @@
 spring:
   datasource:
     url: jdbc:oracle:thin:@127.0.0.1:1521:XE
-    username: CHICKEN
-    password: MUMANI
+    username: ******
+    password: ******
     driverClassName: oracle.jdbc.driver.OracleDriver
 
   mail:
     host: smtp.naver.com
     port: 465
-    username: kwon524@naver.com
-    password: rnjsdhtn2@
+    username: ***********
+    password: ********
     properties:
       mail:
         smtp:
@@ -23,7 +23,7 @@ spring:
 
 jwt:
   header: Gyemoim
-  secret: GyemoimChickenMumani
+  secret: *****************************************************
   token-validity-in-seconds: 1800000  # 30분
 
 
