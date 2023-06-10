@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+    username: CHICKEN
+    password: MUMANI
+    driverClassName: oracle.jdbc.driver.OracleDriver
+
+  mail:
+    host: smtp.naver.com
+    port: 465
+    username: kwon524@naver.com
+    password: rnjsdhtn2@
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl.enable: true
+          ssl.trust: smtp.naver.com
+
+  redis:
+    host: localhost
+    port: 6379
+
+jwt:
+  header: Gyemoim
+  secret: GyemoimChickenMumani
+  token-validity-in-seconds: 1800000  # 30분
+
+
+mybatis:
+  mapper-locations: classpath:mapper/**.xml
+
+upload:
+  path: /path/to/upload/folder

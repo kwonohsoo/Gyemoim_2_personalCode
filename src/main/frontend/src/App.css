@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+input, button, div {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
